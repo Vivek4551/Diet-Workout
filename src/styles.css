@@ -357,17 +357,99 @@ h2 {
   font-size: 0.85rem;
 }
 
+.app-shell.app-shell--subpage {
+  padding: 0;
+  align-items: stretch;
+}
+
+.app-shell--subpage .main-card {
+  width: 100%;
+  max-width: none;
+  border-radius: 0;
+  border: none;
+  background: transparent;
+  box-shadow: none;
+  padding: 0;
+}
+
+.app-shell--subpage .page-panel {
+  padding: 0;
+  border: none;
+  border-radius: 0;
+  background: transparent;
+}
+
+.app-shell--subpage .top-bar {
+  margin: 0;
+  padding: 6px 10px;
+  background: #07120f;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.app-shell--subpage .active-label {
+  display: none;
+}
+
+.app-shell--subpage .back-button {
+  padding: 6px 12px;
+  font-size: 0.85rem;
+  border-radius: 10px;
+}
+
 @media (max-width: 640px) {
+  .app-shell {
+    padding: 8px;
+  }
+
   .app-card {
-    border-radius: 24px;
-    padding: 18px;
+    border-radius: 18px;
+  }
+
+  .main-card {
+    padding: 12px;
   }
 
   .hero {
     grid-template-columns: 1fr;
+    gap: 12px;
+    margin-bottom: 14px;
+  }
+
+  .hero-copy {
+    margin-top: 8px;
+    line-height: 1.55;
   }
 
   .hero-icon {
     justify-self: start;
+    width: 52px;
+    height: 52px;
+    font-size: 1.8rem;
+    border-radius: 16px;
+  }
+
+  .options-grid {
+    grid-template-columns: 1fr;
+    gap: 10px;
+    margin-top: 8px;
+  }
+
+  .option-card {
+    padding: 16px;
+    border-radius: 16px;
+  }
+
+  .option-card p {
+    margin-top: 8px;
+    line-height: 1.5;
+  }
+
+  .page-panel {
+    padding: 12px;
+    border-radius: 18px;
+  }
+
+  .main-select {
+    gap: 12px;
   }
 }

@@ -249,9 +249,12 @@ const sabziVegs = [
 const supplements = [
   { name: "Creatine Monohydrate", dose: "5g/day", timing: "Post-workout or with breakfast", note: "Take every day — rest days too. Loading not needed." },
   { name: "Whey Protein", dose: "1–2 scoops/day", timing: "Post-workout shake + snack if needed", note: "Unflavoured or chocolate. Check label: ≥22g P per scoop." },
+  { name: "L-carnitine", dose: "2 tablet", timing: "Pre-workout + Post-workout", note: "One before gym and after gym" },
+  { name: "Zincovit/Multivitamin", dose: "1 tablet", timing: "Post Breakfast", note: "Just after breakfast" },
   { name: "Vitamin D3", dose: "2000–4000 IU/day", timing: "Morning with fat-containing meal", note: "Most Indians are deficient. Essential for muscle function." },
   { name: "Omega-3 (Fish Oil)", dose: "1g EPA+DHA/day", timing: "With any meal", note: "Anti-inflammatory, joint health. Algae-based if vegetarian." },
   { name: "Magnesium Glycinate", dose: "200–400mg/day", timing: "Before bed", note: "Improves sleep quality and muscle recovery." },
+  { name: "Ashwagandha", dose: "600mg/day", timing: "Before bed", note: "Improves sleep quality and muscle recovery." },
 ];
 
 const tabs = ["Meals", "Schedule", "Workout", "Salads", "Supps", "Profile"];
